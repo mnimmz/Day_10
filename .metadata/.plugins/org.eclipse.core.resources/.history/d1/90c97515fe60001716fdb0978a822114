@@ -1,0 +1,31 @@
+package projects;
+
+import java.util.Scanner;
+
+public abstract class ConversionCalcAbstration {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+//	public void feet(){
+//		
+//		Scanner calculate = new Scanner(System.in);
+//		System.out.println("Enter feet: ");
+//		int feetamt = calculate.nextInt();
+//		
+//		System.out.print("Inches: ");
+//		System.out.println(feetamt * 12);
+//		
+//	}
+//	
+//	public void celcius(){
+//		
+//	}
+//	
+	public abstract void feet();
+	
+	public abstract void celcius();
+
+}
