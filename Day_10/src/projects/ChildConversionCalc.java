@@ -14,7 +14,6 @@ public class ChildConversionCalc extends ConversionCalcAbstration {
 		
 		Scanner enter = new Scanner(System.in);
 		System.out.print("Select 1 for feet to inches, or 2 for celcius to fahrenheit: ");
-//		System.out.println("   ");
 		int choose = enter.nextInt();
 		
 		if (choose == 1){
